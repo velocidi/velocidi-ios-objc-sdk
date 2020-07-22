@@ -65,6 +65,8 @@ jobs:
         - pod repo update
         - pod install
         - pod lib lint --verbose VelocidiSDK.podspec
+        - pod trunk register duarte.pinto@velocidi.com 'Duarte Pinto' && sleep 15
+        - pod trunk push VelocidiSDK.podspec
       after_success: null
       before_install: null
 notifications:
