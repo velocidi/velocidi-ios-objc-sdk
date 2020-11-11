@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VSDKOrder Class Reference</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="../css/custom.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/VSDKOrder" class="dashAnchor"></a>
+    <a title="VSDKOrder Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">VelocidiSDK 0.3.2 Docs</a> (86% documented)</p>
+        <p class="header-right"><a href="https://github.com/velocidi/velocidi-ios-objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right external-link"><a href="https://velocidi.com">
+          Velocidi
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
+        </a></p>
+        <p class="header-right external-link"><a href="https://docs.velocidi.com">
+          Product Documentation
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
+        </a></p>
+        <p class="header-right external-link"><a href="https://developers.velocidi.com">
+          Developers Documentation
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
+        </a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">VelocidiSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        VSDKOrder Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)VSDKAddToCart">VSDKAddToCart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKAppView.html">VSDKAppView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKConfig.html">VSDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKCustomization.html">VSDKCustomization</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKDiscount.html">VSDKDiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKLineItem.html">VSDKLineItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKMatchRequest.html">VSDKMatchRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKOrder.html">VSDKOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKOrderPlace.html">VSDKOrderPlace</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKPageView.html">VSDKPageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProduct.html">VSDKProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProductClick.html">VSDKProductClick</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProductCustomization.html">VSDKProductCustomization</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProductFeedback.html">VSDKProductFeedback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProductImpression.html">VSDKProductImpression</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProductView.html">VSDKProductView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKProductViewDetails.html">VSDKProductViewDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKRemoveFromCart.html">VSDKRemoveFromCart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKRequest.html">VSDKRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKSearch.html">VSDKSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKTrackingEvent.html">VSDKTrackingEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKTrackingRequest.html">VSDKTrackingRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKUserId.html">VSDKUserId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKUtil.html">VSDKUtil</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSDKVelocidi.html">VSDKVelocidi</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VelocidiSDKVersionNumber">VelocidiSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VelocidiSDKVersionString">VelocidiSDKVersionString</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>VSDKOrder</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">VSDKOrder</span> <span class="p">:</span> <span class="nc">JSONModel</span>
+
+<span class="cm">/**
+  Order identifier 
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">id</span><span class="p">;</span>
+
+<span class="cm">/**
+  Transaction currency
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">currency</span><span class="p">;</span>
+
+<span class="cm">/**
+  Order total price (after taxes and shipping)
+ */</span>
+<span class="k">@property</span> <span class="kt">float</span> <span class="n">total</span><span class="p">;</span>
+
+<span class="cm">/**
+  Subtotal product price
+ */</span>
+<span class="k">@property</span> <span class="kt">float</span> <span class="n">subtotal</span><span class="p">;</span>
+
+<span class="cm">/**
+  Applied tax
+ */</span>
+<span class="k">@property</span> <span class="kt">float</span> <span class="n">tax</span><span class="p">;</span>
+
+<span class="cm">/**
+  Order shipping cost
+ */</span>
+<span class="k">@property</span> <span class="kt">float</span> <span class="n">shipping</span><span class="p">;</span>
+
+<span class="cm">/**
+  Applied discount
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes/VSDKDiscount.html">VSDKDiscount</a></span> <span class="o">*</span><span class="n">discount</span><span class="p">;</span>
+
+<span class="cm">/**
+  Applied refund
+ */</span>
+<span class="k">@property</span> <span class="kt">float</span> <span class="n">refund</span><span class="p">;</span>
+
+<span class="cm">/**
+  Payment type (e.g. credit card, debit card, Paypal)
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">paymentMethod</span><span class="p">;</span>
+
+<span class="cm">/**
+  The shipping method
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">shippingMethod</span><span class="p">;</span>
+
+<span class="cm">/**
+  The destination country
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">shippingCountry</span><span class="p">;</span>
+
+<span class="cm">/**
+  Vouchers applied in the purchase
+ */</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSMutableArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">promotions</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)id"></a>
+                    <a name="//apple_ref/objc/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)id">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Order identifier</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">id</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L9">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)currency"></a>
+                    <a name="//apple_ref/objc/Property/currency" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)currency">currency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Transaction currency</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">currency</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currency</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L14">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)total"></a>
+                    <a name="//apple_ref/objc/Property/total" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)total">total</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Order total price (after taxes and shipping)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="kt">float</span> <span class="n">total</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">total</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L19">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)subtotal"></a>
+                    <a name="//apple_ref/objc/Property/subtotal" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)subtotal">subtotal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Subtotal product price</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="kt">float</span> <span class="n">subtotal</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">subtotal</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L24">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)tax"></a>
+                    <a name="//apple_ref/objc/Property/tax" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)tax">tax</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Applied tax</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="kt">float</span> <span class="n">tax</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">tax</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L29">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)shipping"></a>
+                    <a name="//apple_ref/objc/Property/shipping" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)shipping">shipping</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Order shipping cost</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="kt">float</span> <span class="n">shipping</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">shipping</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L34">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)discount"></a>
+                    <a name="//apple_ref/objc/Property/discount" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)discount">discount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Applied discount</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes/VSDKDiscount.html">VSDKDiscount</a></span> <span class="o">*</span><span class="n">discount</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">discount</span><span class="p">:</span> <span class="kt"><a href="../Classes/VSDKDiscount.html">VSDKDiscount</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L39">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)refund"></a>
+                    <a name="//apple_ref/objc/Property/refund" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)refund">refund</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Applied refund</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="kt">float</span> <span class="n">refund</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">refund</span><span class="p">:</span> <span class="kt">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L44">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)paymentMethod"></a>
+                    <a name="//apple_ref/objc/Property/paymentMethod" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)paymentMethod">paymentMethod</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Payment type (e.g. credit card, debit card, Paypal)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">paymentMethod</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">paymentMethod</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L49">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)shippingMethod"></a>
+                    <a name="//apple_ref/objc/Property/shippingMethod" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)shippingMethod">shippingMethod</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The shipping method</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">shippingMethod</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">shippingMethod</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L54">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)shippingCountry"></a>
+                    <a name="//apple_ref/objc/Property/shippingCountry" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)shippingCountry">shippingCountry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The destination country</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">shippingCountry</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">shippingCountry</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L59">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VSDKOrder(py)promotions"></a>
+                    <a name="//apple_ref/objc/Property/promotions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VSDKOrder(py)promotions">promotions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Vouchers applied in the purchase</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nullable</span><span class="p">)</span> <span class="n">NSMutableArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">promotions</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/velocidi/velocidi-ios-objc-sdk/tree/v0.3.2/VelocidiSDK/VelocidiSDK/Tracking/Model/VSDKOrder.h#L64">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="http://velocidi.com" target="_blank" rel="external">Velocidi</a>. All rights reserved. (Last updated: 2020-11-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
