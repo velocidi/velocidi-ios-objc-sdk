@@ -10,3 +10,15 @@ module: VelocidiSDK
 output: ./docs/docs_page/
 theme: docs/velocidi-jazzy-theme/
 readme: ./docs/tmp/readme/README.md
+documentation: 
+  - ./docs/*.md 
+  - ./docs/tmp/docs/*.md 
+custom_categories: 
+  - name: Guides 
+    children: 
+      - Installation
+      - Setting up the SDK
+      - Send a track event
+      - Make a match
+      - Custom tracking events
+      - Tracking model classes list
